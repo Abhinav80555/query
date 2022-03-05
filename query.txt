@@ -1,0 +1,24 @@
+let a = [
+{
+ name: "a",
+ dept: "cse",
+ mark: [1, 2, 3, 4, 5],},
+{
+ name: "b",
+ dept: "cse",
+ mark: [1, 124, 43, 14, 45],},
+{
+ name: "c",
+ dept: "cse",
+ mark: [81, 82, 3, 84, 85],},
+];
+let sum = 0;
+for (var  i = 0;i<a.length;i++);
+{
+var mark = a[i].mark;
+for (var j=0;j<mark.length;j++);
+{
+sum=sum+mark[j];
+}
+console.log(`name:${a[i].name} , total:${sum}`);
+}
